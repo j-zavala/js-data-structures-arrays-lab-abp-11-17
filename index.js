@@ -12,3 +12,7 @@ function destructivelyRemoveLastDriver()
 {
   const array = drivers.pop();
 }
+
+function destructivelyRemoveFirstDriver() {
+  const array = drivers.shift();
+}
